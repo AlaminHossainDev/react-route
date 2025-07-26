@@ -1,4 +1,6 @@
 import './App.css'
+import Counter from './counter'
+import Team from './Team'
 
 function App() {
   function handleClick(){
@@ -15,14 +17,16 @@ function App() {
 
   return (
     <>
-     <div>
+    <Team></Team>
+    <Counter></Counter>
+     {/* <div>
       <h1>React Core conceft</h1>
       <button onClick={handleClick}>Click Here Now</button>
       <button onClick={handleClick2}>Here Now</button>
       <button onClick={() => alert(('clicked 3rd btn'))} >btn 3</button>
       <button onClick={()=> addToFive(3) } >Button 4</button>
     
-      </div>
+      </div> */}
     </>
   )
 }
