@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './counter'
+import DataLoad from './DataLoad'
 import Friends from './Friends'
 import Team from './Team'
 import Users from './User'
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+    <DataLoad></DataLoad>
     <Friends></Friends>
     <Users></Users>
     <Team></Team>
