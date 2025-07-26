@@ -1,6 +1,8 @@
 import './App.css'
 import Counter from './counter'
+import Friends from './Friends'
 import Team from './Team'
+import Users from './User'
 
 function App() {
   function handleClick(){
@@ -17,6 +19,8 @@ function App() {
 
   return (
     <>
+    <Friends></Friends>
+    <Users></Users>
     <Team></Team>
     <Counter></Counter>
      {/* <div>
